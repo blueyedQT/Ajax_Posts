@@ -38,7 +38,8 @@
 |
 */
 
-$route['default_controller'] = "users/index";
+$route['default_controller'] = "notes/index";
+$route['create'] = "notes/create";
 $route['404_override'] = '';
 
 
